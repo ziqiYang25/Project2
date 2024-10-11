@@ -1,0 +1,110 @@
+body{
+  background-image:url("https://www.creativefabrica.com/wp-content/uploads/2021/07/29/Dark-Blue-Sparkle-Glitter-Background-Graphics-15237764-1.jpg");
+  
+}
+h2:hover{
+  background-color:blue;
+}
+h2,a{
+  color:antiquewhite;
+}
+h1{
+  background-image: radial-gradient(#0b73a44c, #03071d);
+  font-size:60px;
+  text-align:center;
+  font-family:'Courier New', Courier, monospace;
+  color:rgb(215, 239, 250);;
+  border-color:rgb(215, 239, 250);;
+  border-style:solid;
+  border-width:7px;
+}
+
+.rectangle{
+  display: inline-block;
+  background-image:radial-gradient(#03071d,#0b73a44c);
+  width:200px;
+  height:40px;
+  border-width:5px;
+  border-style:double;
+  border-color:rgb(215, 239, 250);
+  text-align: center;
+}
+#rectangle2{
+  display: inline-block;
+  background-image:radial-gradient(#03071d,#0b73a44c);
+  width:600px;
+  height:600px;
+  border-width:5px;
+  border-style:double;
+  border-color:rgb(215, 239, 250);
+  text-align: center;
+}
+article{
+  margin:5%;
+  background-color:rgba(128,128,128,0.4);
+  color:aliceblue
+}
+p:hover{
+  background-color:rgb(0, 76, 255);
+}
+img:hover{
+  background-color:deeppink;
+}
+ul:hover{
+  background-color:rgb(162, 0, 255);
+  text-transform: capitalize;
+}
+ol:hover{
+  background-color:rgb(148, 255, 9);
+  text-transform:uppercase;
+  color:black;
+}
+.img{
+  float:left;
+  border:solid;
+  padding:1em;
+  margin:1em;
+  width:50%;
+  width:200px;
+  height:200px;
+}
+.gallery-item{
+  border:2px dashed rgb(255, 255, 255);
+  width:80%;
+  margin:25px;
+  padding:10px;
+  overflow:hidden;
+}
+.iframe{
+  height:400px;
+  width:500px;
+  float:left;
+}
+.row{
+  display:flex; 
+}
+table:hover{
+  border:10px;
+  border-color:black;
+  color:rgb(188, 2, 198);
+  background-color:rgb(0, 255, 247);
+  animation:serve 3s forwards;
+  font-family:'Courier New', Courier, monospace;
+}
+.Image{
+  
+  animation:hueRotate 2s infinite;
+  
+}
+@keyframes hueRotate {
+  to {
+      filter: hue-rotate(360deg);
+      
+  }
+}
+#Image{
+ position:fixed;
+ top:50%;
+ right:50%;
+ transform: translate(150%,-20%)
+}
